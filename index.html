@@ -1,0 +1,1896 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Who is Daniel Cruz?</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/rabbit.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Daniel Cruz"
+              width="60"
+              style="border-radius: 30px"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Daniel Cruz">Daniel Cruz</h1>
+
+            <p class="title">Full Stack Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:richard@example.com" class="contact-link"
+                  >danielcru0217@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+63-907-532-2419</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">February 17, 1996</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Makati City, Metro Manila, Philippines</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="skype:live:.cid.68f14c986857d29a"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ion-icon name="logo-skype"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://t.me/SuperBluestar"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ion-icon name="paper-plane-outline"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://github.com/Superredstar"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="./resume.pdf" class="social-link" download>
+                <ion-icon name="download-outline"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <!-- <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li> -->
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I am an experienced Full Stack Software Engineer with 6 years of
+              expertise, specializing in Web3, web development, Android, and
+              iOS. <br />
+              Currently, I am working at Forreels, where I contribute to
+              developing a platform that connects clients with creators,
+              photographers, actors, and directors, enabling seamless
+              collaboration to produce exceptional films within the film
+              industry.
+            </p>
+
+            <p>
+              I am a self-disciplined developer with a strong focus on
+              delivering high-quality, efficient solutions. I thrive in dynamic
+              environments and am always eager to learn and adapt to new
+              technologies. My commitment to continuous improvement ensures that
+              I stay updated with the latest industry trends, enabling me to
+              build innovative and reliable applications that meet both user
+              needs and business goals.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <!-- <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  /> -->
+                  <span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 70 70"
+                      width="40"
+                      height="40"
+                    >
+                      <path
+                        fill="hsl(45, 100%,72%)"
+                        d="M32 0C14.326 0 0 14.326 0 32s14.326 32 32 32 32-14.326 32-32S49.674 0 32 0zm0 60c-15.263 0-28-12.737-28-28S16.737 4 32 4s28 12.737 28 28-12.737 28-28 28z"
+                      />
+                      <path
+                        fill="hsl(45, 100%,72%)"
+                        d="M43.636 27.636L32 18.27l-11.636 9.366c-.947.948-.947 2.493 0 3.441l11.636 9.366 11.636-9.366c.947-.948.947-2.493 0-3.441zM20.364 36.364l11.636 9.366 11.636-9.366-11.636-9.366-11.636 9.366z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web3</h4>
+
+                  <p class="service-item-text">
+                    Innovative design and development for the decentralized web.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                  <p class="service-item-text">
+                    Professional development of applications for iOS and
+                    Android.
+                  </p>
+                </div>
+              </li>
+
+              <!-- <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photography</h4>
+
+                  <p class="service-item-text">
+                    I make high-quality photos of any category at a professional
+                    level.
+                  </p>
+                </div>
+              </li> -->
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Victor Kaycee
+                    <p class="testimonials-text" style="font-size: 12px">
+                      (CEO, GamerHub)
+                    </p>
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Daniel has transformed our operations at GamerHub with his
+                      innovative work on decentralized AI training. His ability
+                      to create user-friendly designs has improved accessibility
+                      and user experience. His contributions have been
+                      invaluable to our success.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Jessica miller"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Allendra Freeman
+                    <p class="testimonials-text" style="font-size: 12px">
+                      (CEO, Forreels)
+                    </p>
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Daniel Cruz has been a key player at Forreels. His
+                      expertise in Next.js and real-time features with Socket.IO
+                      has streamlined our platform, enhancing collaboration and
+                      user engagement. His commitment to CI/CD and AWS
+                      management has significantly boosted our efficiency.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Emily evans"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Emily evans
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li> -->
+
+              <!-- <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Henry william"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Henry william
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Richard was hired to create a corporate identity. We were
+                      very pleased with the work done. She has a lot of
+                      experience and is very concerned about the needs of
+                      client. Lorem ipsum dolor sit amet, ullamcous cididt
+                      consectetur adipiscing elit, seds do et eiusmod tempor
+                      incididunt ut laborels dolore magnarels alia.
+                    </p>
+                  </div>
+                </div>
+              </li> -->
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-1-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-2-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-3-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-4-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-5-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-6-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">University of Makati</h4>
+
+                <span>2014 — 2018</span>
+
+                <p class="timeline-text">
+                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
+                  delenit atque corrupti, quos dolores et quas molestias
+                  exceptur.
+                </p>
+              </li>
+
+              <!-- <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">New york academy of art</h4>
+
+                <span>2006 — 2007</span>
+
+                <p class="timeline-text">
+                  Ratione voluptatem sequi nesciunt, facere quisquams facere
+                  menda ossimus, omnis voluptas assumenda est omnis..
+                </p>
+              </li> -->
+
+              <!-- <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  High school of art and design
+                </h4>
+
+                <span>2002 — 2004</span>
+
+                <p class="timeline-text">
+                  Duis aute irure dolor in reprehenderit in voluptate, quila
+                  voluptas mag odit aut fugit, sed consequuntur magni dolores
+                  eos.
+                </p>
+              </li> -->
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="home-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  <span style="font-style: italic">Forreels </span> Full Stack
+                  Developer (Remote, Japan)
+                </h4>
+
+                <span>Feb 2023 - Present </span>
+
+                <p class="timeline-text">
+                  • Led the development of a sophisticated platform for the film
+                  industry, enabling seamless collaboration between clients,
+                  creators, actors, and production teams, optimizing project
+                  management and coordination.
+                  <br />
+                  • Architected and developed a full-stack application using
+                  Next.js for the frontend, utilizing server-side rendering
+                  (SSR), static site generation (SSG), dynamic routing, and API
+                  routes to build a fast, SEO optimized web application.
+                  <br />
+                  • Built and maintained secure and scalable backend services
+                  using Express.js and Node.js, with a focus on developing
+                  RESTful APIs and integrating third-party services.
+                  <br />
+                  • Implemented real-time communication capabilities with
+                  Socket.IO to enable live updates and collaboration features,
+                  enhancing user engagement and reducing operational delays.
+                  <br />
+                  • Leveraged Azure DevOps for continuous integration and
+                  continuous deployment (CI/CD), automating testing, deployment,
+                  and monitoring processes to improve development efficiency and
+                  reduce downtime.
+                  <br />
+                  • Deployed and managed infrastructure on AWS, utilizing
+                  services such as EC2 for compute, S3 for storage, RDS
+                  (PostgreSQL) for relational database management, Lambda for
+                  serverless functions, and CloudFront for content delivery,
+                  ensuring high availability and low latency.
+                  <br />
+                  • Integrated Google Maps API to provide location-based
+                  services, enhancing scheduling and coordination for filming
+                  and meetings.
+                  <br />
+                  • Implemented authentication and authorization mechanisms
+                  using Google Auth and OAuth 2.0, ensuring secure user access
+                  and identity management.
+                  <br />
+                  • Managed email services using Amazon SES and SendGrid for
+                  transactional emails, notifications, and real-time
+                  communication, improving user engagement and system
+                  reliability.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  <span style="font-style: italic">GamerHub </span>Full Stack
+                  Developer | Web3, AI Developer (Remote, Australia)
+                </h4>
+
+                <span>Apr 2022 - Feb 2023</span>
+
+                <p class="timeline-text">
+                  • Led the development of a decentralized AI model training
+                  infrastructure designed to revolutionize the AI training
+                  landscape by making it faster, more cost-effective, and
+                  accessible to a wide range of users including data scientists,
+                  machine learning engineers, and researchers.
+                  <br />
+                  • Architected a scalable platform utilizing decentralized
+                  parallel training techniques to significantly reduce AI model
+                  training time from days to minutes, enhancing computational
+                  efficiency and optimizing resource usage.
+                  <br />
+                  • Developed and integrated backend services with Particle APIs
+                  to enable secure, decentralized data processing and
+                  distributed computing, ensuring scalability and fault
+                  tolerance across the training infrastructure.
+                  <br />
+                  • Implemented robust data privacy and security measures,
+                  incorporating encryption and secure data transfer protocols to
+                  safeguard sensitive information and prevent unauthorized
+                  access or data leaks during AI model training.
+                  <br />
+                  • Designed a user-friendly interface for model deployment,
+                  utilizing React.js and Next.js for the frontend to create an
+                  intuitive, accessible experience for users of varying
+                  technical expertise.
+                  <br />
+                  • Collaborated with cross-functional teams to customize AI
+                  model training pipelines, leveraging Python, TensorFlow, and
+                  PyTorch to support a wide range of machine learning frameworks
+                  and models.
+                  <br />
+                  • Optimized the platform's architecture and performance using
+                  Docker and Kubernetes for containerization and orchestration,
+                  facilitating seamless deployment and scalability across
+                  multiple environments.
+                  <br />
+                  • Implemented cost-efficiency strategies by optimizing
+                  resource allocation and usage, reducing overhead costs
+                  associated with traditional AI model training infrastructures.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  <span style="font-style: italic"
+                    >TechWave Solutions Inc. </span
+                  >Full Stack Developer (Makati City, Philippines)
+                </h4>
+
+                <span>Jul 2020 - Feb 2022</span>
+
+                <p class="timeline-text">
+                  • Developed and maintained high-performance web applications
+                  using Python and Django, focusing on scalability, security,
+                  and robust backend functionality to support diverse client
+                  projects.
+                  <br />
+                  • Built and optimized RESTful APIs and GraphQL endpoints with
+                  Django REST Framework (DRF), enabling efficient data retrieval
+                  and integration with frontend applications.
+                  <br />
+                  • Led the frontend development efforts using React.js and
+                  Vue.js, integrated with Django's templating system to create
+                  dynamic, responsive user interfaces that enhance user
+                  experience.
+                  <br />
+                  • Managed cloud deployment and infrastructure using AWS and
+                  DigitalOcean, leveraging services like EC2, S3, and RDS to
+                  ensure high availability, security, and scalability of
+                  applications.
+                  <br />
+                  • Implemented secure user authentication systems using
+                  Django's built-in authentication framework and OAuth 2.0,
+                  ensuring secure access and protecting sensitive data.
+                  <br />
+                  • Utilized Docker for containerization of applications,
+                  streamlining development workflows and ensuring consistency
+                  across multiple environments from development to production.
+                  <br />
+                  • Optimized database performance using PostgreSQL, designing
+                  efficient schema, indexing strategies, and query optimization
+                  to handle large datasets and high-traffic loads.
+                  <br />
+                  • Collaborated closely with cross-functional teams, including
+                  designers, product managers, and data scientists, using Agile
+                  methodologies and tools like Jira and Trello to deliver
+                  projects on time and within budget.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  <span style="font-style: italic">PixelTech Solutions </span
+                  >Full Stack Developer (Makati City, Philippines)
+                </h4>
+
+                <span>Nov 2018 - Jun 2020</span>
+
+                <p class="timeline-text">
+                  • Developed and maintained web applications using React.js and
+                  Vue.js, ensuring responsive and interactive user interfaces.
+                  <br />
+                  • Implemented high-quality code with HTML5, CSS3, and
+                  JavaScript (ES6+), adhering to best practices for
+                  cross-browser compatibility and performance.
+                  <br />
+                  • Utilized state management tools such as Redux and Vuex to
+                  manage complex application states and enhance user experience.
+                  <br />
+                  • Optimized frontend performance by applying techniques like
+                  code splitting, lazy loading, and asset management, resulting
+                  in faster load times and improved user satisfaction.
+                  <br />
+                  • Assisted in developing backend systems using Node.js and
+                  Express.js, PHP and Laravel focusing on scalable and efficient
+                  server-side applications.
+                  <br />
+                  • Designed and implemented RESTful APIs and GraphQL endpoints
+                  to support frontend functionalities and enable smooth data
+                  integration.
+                  <br />
+                  • Managed databases using MySQL and MongoDB, including schema
+                  design, query optimization, and data migration to handle large
+                  datasets efficiently.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fab fa-html5"></i> HTML</p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fab fa-css3-alt"></i> CSS</p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fab fa-sass"></i> Sass</p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon">
+                    <i class="fab fa-bootstrap"></i> Bootstrap
+                  </p>
+                  <h5 class="h5">8/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon">
+                    <svg
+                      class="icon tailwind"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 40 40"
+                      width="16"
+                      height="16"
+                    >
+                      <path
+                        fill="#eb872a"
+                        d="M29.39 16.03c-6.08 0-9.4 3.27-10.96 5.9 2.51-1.9 4.54-2.54 6.14-2.54 2.66 0 4.28 1.47 5.5 3.27 1.44 2.04 2.73 3.87 7.55 3.87 6.07 0 9.39-3.27 10.95-5.9-2.5 1.9-4.54 2.54-6.14 2.54-2.66 0-4.28-1.47-5.5-3.27-1.44-2.04-2.73-3.87-7.54-3.87zM18.91 32.39c-6.08 0-9.4 3.27-10.96 5.9 2.51-1.9 4.54-2.54 6.14-2.54 2.66 0 4.28 1.47 5.5 3.27 1.44 2.04 2.73 3.87 7.55 3.87 6.07 0 9.39-3.27 10.95-5.9-2.5 1.9-4.54 2.54-6.14 2.54-2.66 0-4.28-1.47-5.5-3.27-1.44-2.04-2.73-3.87-7.54-3.87z"
+                      />
+                    </svg>
+                    Tailwind CSS
+                  </p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fab fa-js"></i> JavaScript</p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="80"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fab fa-php"></i> PHP</p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="80"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon">
+                    <i class="fab fa-laravel"></i> Laravel
+                  </p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fab fa-react"></i> React</p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fab fa-vuejs"></i> Vue</p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="80"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon">
+                    <i class="fab fa-angular"></i> Angular
+                  </p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fab fa-java"></i> Java</p>
+                  <h5 class="h5">8/10</h5>
+                  <data value="80"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fab fa-python"></i> Python</p>
+                  <h5 class="h5">9/10</h5>
+                  <data value="90"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 32 32"
+                    >
+                      <path
+                        fill="#eb872a"
+                        d="M27.346 0h7.555c1.896 0 3.132.051 4.107.16 1.053.109 1.949.36 2.84.704.884.359 1.532.85 2.01 1.494.487.636.745 1.394.745 2.236v12.19c0 1.598-.373 2.93-1.11 4.096-.77 1.152-1.951 2.042-3.526 2.677-1.285.55-2.938.99-4.948 1.34-2.302.48-4.615.56-6.91.56h-7.445V100h-7.554V0zm7.554 70.878h5.836c1.557 0 2.738-.038 3.536-.113.769-.077 1.336-.286 1.688-.607.356-.34.53-.828.53-1.471v-5.139c0-1.035-.45-1.823-1.27-2.397-.64-.484-1.465-.797-2.487-.953-1.016-.15-2.456-.222-4.304-.222h-5.339v10.87zM32.342 7.408H34.5v5.728h-4.458v-5.728h1.84zM53.393 24.645h5.555c.805 0 1.39.016 1.725.05 1.072.1 2.056.407 2.96.92.905.507 1.487 1.245 1.783 2.197.304.959.41 2.156.41 3.563v17.545c0 1.046-.151 2.067-.453 3.045-.327.949-.817 1.79-1.468 2.52-.637.725-1.483 1.24-2.42 1.586-.963.382-2.068.58-3.372.58h-5.292V48.99h4.91c.644 0 1.09-.09 1.363-.276.267-.182.404-.51.404-1.016v-1.832c0-1.049-.329-1.659-1.027-1.828-.667-.153-1.491-.216-2.423-.216h-4.235V24.645zm7.56 12.422c0-.678-.098-1.166-.294-1.448-.197-.282-.5-.432-.912-.432h-2.555v3.353h2.96c.416 0 .735-.137.912-.408.184-.272.293-.696.293-1.426zm-30.773-1.246c0 1.147-.333 1.775-.996 2.165-.682.4-1.457.56-2.344.56h-4.91v-5.873h5.336c1.098 0 1.993.205 2.634.614.637.417.956.944.956 1.68z"
+                      />
+                    </svg>
+                    Django
+                  </p>
+                  <h5 class="h5">9/10</h5>
+                  <data value="90"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon">
+                    <i class="fab fa-node-js"></i> Node.js
+                  </p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fas fa-gem"></i> Ruby</p>
+                  <h5 class="h5">7/10</h5>
+                  <data value="70"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fab fa-aws"></i> AWS</p>
+                  <h5 class="h5">8/10</h5>
+                  <data value="80"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fab fa-microsoft"></i> C#</p>
+                  <h5 class="h5">9/10</h5>
+                  <data value="90"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fab fa-docker"></i> Docker</p>
+                  <h5 class="h5">8/10</h5>
+                  <data value="80"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fab fa-php"></i> Kubernetes</p>
+                  <h5 class="h5">7/10</h5>
+                  <data value="70"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon">
+                    <i class="fas fa-chart-line"></i> Jira
+                  </p>
+                  <h5 class="h5">9/10</h5>
+                  <data value="90"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon">
+                    <i class="fab fa-jenkins"></i> Jenkins
+                  </p>
+                  <h5 class="h5">8/10</h5>
+                  <data value="80"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fas fa-vial"></i> Jest</p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon">
+                    <i class="fab fa-wordpress"></i> WordPress
+                  </p>
+                  <h5 class="h5">9/10</h5>
+                  <data value="90"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 32 32"
+                    >
+                      <path
+                        fill="#eb872a"
+                        d="M23.4 0c-.2 0-.4.1-.5.2l-3.2 3.2c-.1.1-.2.3-.2.5v1h-5.5V1.5H5.4C2.4 1.5 0 4.1 0 7.1v18.4c0 3 2.4 5.6 5.4 5.6h18.1c3 0 5.4-2.5 5.4-5.6V7.1c0-3-2.4-5.6-5.4-5.6zm0 26H5.4c-1.5 0-2.7-1.2-2.7-2.7V7.1c0-1.5 1.2-2.7 2.7-2.7h14.7c1.5 0 2.7 1.2 2.7 2.7v16.1c0 1.5-1.2 2.7-2.7 2.7zm-12-3.5h2.7v-2.7H11.4v2.7zm0-4.1h2.7v-2.7H11.4v2.7zM7.4 18h2.7v-2.7H7.4V18zm0-4.1h2.7v-2.7H7.4v2.7zm10.5 4.1h2.7v-2.7h-2.7v2.7zm0-4.1h2.7v-2.7h-2.7v2.7zM11.4 5.5h2.7v2.7H11.4V5.5zm0 0h2.7v2.7H11.4V5.5zM7.4 5.5h2.7v2.7H7.4V5.5zm0 0h2.7v2.7H7.4V5.5z"
+                      />
+                    </svg>
+                    Shopify
+                  </p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fas fa-database"></i> MySQL</p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fab fa-envira"></i> MongoDB</p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon">
+                    <i class="fas fa-database"></i> PostgreSQL
+                  </p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon">
+                    <i class="fas fa-database"></i> SQLite
+                  </p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon"><i class="fas fa-fire"></i> Redis</p>
+                  <h5 class="h5">10/10</h5>
+                  <data value="100"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <p class="tech-icon">
+                    <i class="fas fa-network-wired"></i> Blockchain
+                  </p>
+                  <h5 class="h5">9/10</h5>
+                  <data value="90"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list" style="max-width: 100%; overflow: auto">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>React</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Vue</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Angular</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Laravel</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Express</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Java</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Ruby on Rails</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Django</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>C#</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>WordPress</button>
+              </li>
+              <li class="filter-item">
+                <button data-filter-btn>Shopify</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+                <li class="select-item">
+                  <button data-filter-btn>React</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-filter-btn>Vue</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-filter-btn>Angular</button>
+                </li>
+                <li class="select-item">
+                  <button data-filter-btn>Laravel</button>
+                </li>
+                <li class="select-item">
+                  <button data-filter-btn>Express</button>
+                </li>
+                <li class="select-item">
+                  <button data-filter-btn>Java</button>
+                </li>
+                <li class="select-item">
+                  <button data-filter-btn>Ruby on Rails</button>
+                </li>
+                <li class="select-item">
+                  <button data-filter-btn>Django</button>
+                </li>
+                <li class="select-item">
+                  <button data-filter-btn>C#</button>
+                </li>
+                <li class="select-item">
+                  <button data-filter-btn>WordPress</button>
+                </li>
+                <li class="select-item">
+                  <button data-filter-btn>Shopify</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="React Express MongoDB Python"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-0.png"
+                      alt="Forreels"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Forreels</h3>
+
+                  <p class="project-category">React, Express, MongoDB</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="WordPress Shopify MySQL"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="Baby N Stuffs"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Baby N Stuffs</h3>
+
+                  <p class="project-category">WordPress, Shopify, MySQL</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="React Shopify PostgreSQL"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="MENSTRUAL"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">MENSTRUAL</h3>
+
+                  <p class="project-category">React, Shopify, PostgreSQL</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Vue C# PostgreSQL"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.jpg"
+                      alt="Fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Fundo</h3>
+
+                  <p class="project-category">Vue, C#, PostgreSQL</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="React Native Java MongoDB"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="Brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Brawlhalla</h3>
+
+                  <p class="project-category">React Native, Java, MongoDB</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Web3 AI React Express MongoDB"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="GamerHub"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">GamerHub</h3>
+
+                  <p class="project-category">
+                    Web3, AI, React, Express, MongoDB
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Angular C# PostgreSQL"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="StartLAUNCH"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">StartLAUNCH</h3>
+
+                  <p class="project-category">Angular, C#, PostgreSQL</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Laravel Shopify MySQL"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-7.png"
+                      alt="Lieblingscafe"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Lieblingscafe</h3>
+
+                  <p class="project-category">Laravel, Shopify, MySQL</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Vue Django Shopify PostgreSQL"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-8.jpg"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">EQUIDUO</h3>
+
+                  <p class="project-category">Vue, Django, Shopify, PostgreSQL</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="Django PostgreSQL"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="Work Sheriff"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Work Sheriff</h3>
+
+                  <p class="project-category">Django, PostgreSQL</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <!-- <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Design conferences in 2022
+                    </h3>
+
+                    <p class="blog-text">
+                      Veritatis et quasi architecto beatae vitae dicta sunt,
+                      explicabo.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Best fonts every designer
+                    </h3>
+
+                    <p class="blog-text">
+                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
+                      est eligendi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                    <p class="blog-text">
+                      Excepteur sint occaecat cupidatat no proident, quis
+                      nostrum exercitationem ullam corporis suscipit.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-4.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      UI interactions of the week
+                    </h3>
+
+                    <p class="blog-text">
+                      Enim ad minim veniam, consectetur adipiscing elit, quis
+                      nostrud exercitation ullamco laboris nisi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-5.jpg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      The forgotten art of spacing
+                    </h3>
+
+                    <p class="blog-text">
+                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-6.jpg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                    <p class="blog-text">
+                      Optio cumque nihil impedit uo minus quod maxime placeat,
+                      velit esse cillum.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article> -->
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1930.048712587509!2d121.01729889999999!3d14.5522115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c905678f85ed%3A0x4f96e4a0a62ff98b!2s676%20Pasay%20Road%2C%20Barangay%20San%20Lorenzo%2C%20Makati%2C%20Metro%20Manila%2C%20Philippines!5e0!3m2!1sen!2sph!4v1697369340582!5m2!1sen!2sph"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
